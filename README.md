@@ -19,7 +19,7 @@ Test pipelines for .NET and NodeJS projects.
 ## .NET xUnit Setup Instructions
 
 1. Right click your solution, `Add` -> `New Project...`
-2. Name the new project `UnitTests`, choose `.NET 8`
+2. Select `Class Library` and name it `UnitTests`, choose `.NET 8`
 3. Right click on `Dependencies` in the UnitTests project and click `Add Project Reference...`
 4. Add a reference to your function app .csproj file, and hit OK
 5. Add the following dependencies to your UnitTests project:
