@@ -16,7 +16,7 @@ Test pipelines for .NET and NodeJS projects.
 4. On the review step replace the code with one of the templates in this project, depending on if the project is nodeJS or .Net.
 5. Rename the yml file to something meaningful like `unit-test-pipeline.yml` in the UI.
 
-## .Net xUnit Setup Instructions
+## .NET xUnit Setup Instructions
 
 1. Right click your solution, `Add` -> `New Project...`
 2. Name the new project `UnitTests`, choose `.NET 8`
