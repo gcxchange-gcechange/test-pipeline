@@ -22,7 +22,7 @@ Test pipelines for .NET and NodeJS projects.
 2. Name the new project `UnitTests`, choose `.NET 8`
 3. Right click on `Dependencies` in the UnitTests project and click `Add Project Reference...`
 4. Add a reference to your function app .csproj file, and hit OK
-5. Add the following dependencies to your UnitTest project:
+5. Add the following dependencies to your UnitTests project:
    - Microsoft.NET.Test.Sdk v17.11.1
    - xunit v2.9.3
    - xunit.runner.visualstudio v3.1.5
