@@ -29,7 +29,7 @@ Test pipelines for .NET and NodeJS projects.
    - coverlet.collector v6.0.2
 6. Your UnitTests.csproj file should look something like this when completed:
 <img width="1002" height="434" alt="image" src="https://github.com/user-attachments/assets/b171357d-a85f-4efd-bcc0-f3163a868749" />
-7. Add tests to a class inside your UnitTests project, (see further instructions here)[https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-csharp-with-xunit]
+7. Add tests to a class inside your UnitTests project, [see the documentation here](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-csharp-with-xunit)
 
 ## Jest Setup Instructions (SPFx v1.21.1)
 
@@ -53,5 +53,5 @@ Test pipelines for .NET and NodeJS projects.
    - In your `tsconfig.jest.json` the `root` property tells jest where to look for test files.
    - Any `.test.ts`, `.test.tsx`, `.spec.ts`, `.spec.tsx file`, or file inside a `__tests___ folder.
 5. Once you have a test to try, run the command `npx jest --config jest.config.js` to test locally.
-6. (Further documentation can be found here)[https://jestjs.io/docs/getting-started]
+6. [see the documentation here](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-csharp-with-xunit)
 
