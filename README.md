@@ -53,5 +53,5 @@ Test pipelines for .NET and NodeJS projects.
    - In your `tsconfig.jest.json` the `root` property tells jest where to look for test files.
    - Any `.test.ts`, `.test.tsx`, `.spec.ts`, `.spec.tsx file`, or file inside a `__tests___ folder.
 5. Once you have a test to try, run the command `npx jest --config jest.config.js` to test locally.
-6. [see the documentation here](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-csharp-with-xunit)
+6. You can find further documentation [here](https://jestjs.io/docs/getting-started)
 
