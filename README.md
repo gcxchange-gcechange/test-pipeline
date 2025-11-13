@@ -41,21 +41,24 @@ Test pipelines for .NET and NodeJS projects.
    - `"jest-environment-jsdom": "^29.7.0"`
    - `"@testing-library/react": "^12.1.5"`
    - `"@testing-library/jest-dom": "^5.17.0"`
+   - `"jest-junit": "^16.0.0"`
 2. In `tsconfig.json` add the following to the `"types"` section
    - `"jest"`
    - `"@testing-library/jest-dom"`
-3. In the project's root folder add the following:
+3. In `package.json` under the `scripts` section
+   - Set `"test"` to `"jest --config jest.config.js"`
+4. In the project's root folder add the following:
    - `jest.config.js`
        - <img width="594" height="455" alt="image" src="https://github.com/user-attachments/assets/0109a1a1-8118-490a-9d71-a71559da096c" />
    - `jest.setup.js`
        - <img width="401" height="88" alt="image" src="https://github.com/user-attachments/assets/0b99d8a2-6965-4793-b032-90a65d2d7dd9" />
    - `tsconfig.jest.json`
        - <img width="468" height="388" alt="image" src="https://github.com/user-attachments/assets/72627b97-d16e-478d-b4a1-6092c86af99a" />
-4. In the `src` folder add a folder called `src/__mocks__`
+5. In the `src` folder add a folder called `src/__mocks__`
    - This is where you will mock file & data that the tests don't have access to at runtime.
-5. Add tests to your project in the format `{ComponentName}.test.tsx`
+6. Add tests to your project in the format `{ComponentName}.test.tsx`
    - In your `tsconfig.jest.json` the `root` property tells jest where to look for test files.
    - Any `.test.ts`, `.test.tsx`, `.spec.ts`, `.spec.tsx file`, or file inside a `__tests___ folder.
-6. Once you have a test to try, run the command `npx jest --config jest.config.js` to test locally.
-7. You can find further documentation [here](https://jestjs.io/docs/getting-started)
+7. Once you have a test to try, run the command `npx jest --config jest.config.js` to test locally.
+8. You can find further documentation [here](https://jestjs.io/docs/getting-started)
 
