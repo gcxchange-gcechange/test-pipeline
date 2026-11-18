@@ -16,19 +16,19 @@ Test pipelines for .NET and NodeJS projects.
 4. On the review step replace the code with one of the templates in this project, depending on if the project is nodeJS or .Net.
 5. Rename the yml file to something meaningful like `unit-test-pipeline.yml` in the UI.
 
-## .NET xUnit Setup Instructions
+## .NET xUnit Setup Instructions (.NET 10)
 
 1. Right click your solution, `Add` -> `New Project...`
-2. Select `Class Library`, set the location to the root of your repo, and name it `UnitTests`, choose `.NET 8`
+2. Select `Class Library`, set the location to the root of your repo, and name it `UnitTests`, choose `.NET 10`
 3. Right click on `Dependencies` in the UnitTests project and click `Add Project Reference...`
 4. Add a reference to your function app .csproj file, and hit OK
 5. Add the following dependencies to your UnitTests project:
-   - Microsoft.NET.Test.Sdk v17.11.1
+   - Microsoft.NET.Test.Sdk v18.11.0
    - xunit v2.9.3
    - xunit.runner.visualstudio v3.1.5
-   - coverlet.collector v6.0.2
+   - coverlet.collector v10.1.0
 6. Your UnitTests.csproj file should look something like this when completed:
-<img width="1002" height="434" alt="image" src="https://github.com/user-attachments/assets/b171357d-a85f-4efd-bcc0-f3163a868749" />
+<img width="830" height="576" alt="image" src="https://github.com/user-attachments/assets/c7c09035-3258-49b1-9af2-0f7d917bdb34" />
 7. Add tests to a class inside your UnitTests project and run your tests locally to make sure they work.
 8. You can find further documentation [here](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-csharp-with-xunit)
 
