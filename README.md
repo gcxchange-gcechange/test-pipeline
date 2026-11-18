@@ -6,7 +6,7 @@ Test pipelines for .NET and NodeJS projects.
 
 ## Version
 
-![dotnet 8](https://img.shields.io/badge/net8.0-blue.svg)
+![dotnet 10](https://img.shields.io/badge/net10.0-blue.svg)
 
 ## Pipeline Setup Instructions
 
@@ -29,6 +29,7 @@ Test pipelines for .NET and NodeJS projects.
    - coverlet.collector v10.1.0
 6. Your UnitTests.csproj file should look something like this when completed:
 <img width="830" height="576" alt="image" src="https://github.com/user-attachments/assets/c7c09035-3258-49b1-9af2-0f7d917bdb34" />
+
 7. Add tests to a class inside your UnitTests project and run your tests locally to make sure they work.
 8. You can find further documentation [here](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-csharp-with-xunit)
 
